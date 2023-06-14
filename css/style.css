@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.container {
+  max-width: 30%;
+  text-align: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 5px solid rgb(255, 215, 0, 0.5);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 70%;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  border: 5px solid rgb(255, 215, 0);
+  color: rgb(255, 215, 0);
+}
